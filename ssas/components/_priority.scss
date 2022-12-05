@@ -1,0 +1,45 @@
+//section priority
+
+.priority {
+    
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+.priority__container {
+    display: flex;
+    gap: 30px;
+}
+
+.priopity-link {
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F4FA;
+
+}
+
+.priority__title {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.list .priority__title {
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.list .priority__descr {
+    font-weight: 400;
+    line-height: 1.71;
+    color:var(--secondary-text-color);
+}
+
+.priority__descr {
+    width: 270px;
+}
+
