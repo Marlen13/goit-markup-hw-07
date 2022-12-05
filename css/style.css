@@ -4,16 +4,16 @@
 /* white color text  #FFFFFF   */  
 /* link  #2196F3  */
 /* another link rgba(255, 255, 255, 0.6 */
-:root {
-    --main-text-color:#212121;
-    --secondary-text-color:#757575;
+/*:root {
+   --main-text-color:#212121;
+   --secondary-text-color:#757575;
     --accent-text-color:#2196F3;
-    --white-text-color:#FFFFFF ;
+   --white-text-color:#FFFFFF ;
     --icon-main-color:#AFB1B8;
     --card-gap:30px;
     --hover-duration: 250ms;
     --transition-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+*/
 /*body*/
 body {
     font-family: 'Roboto', sans-serif;
