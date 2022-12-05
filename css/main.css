@@ -209,13 +209,11 @@
   -webkit-transition: background-color var(--hover-duration) var(--transition-function), color var(--hover-duration) var(--transition-function);
   transition: background-color var(--hover-duration) var(--transition-function), color var(--hover-duration) var(--transition-function);
 }
+.social-link:hover, .social-link:focus {
+  background-color: var(--accent-text-color);
+  color: var(--white-text-color);
+}
 
 .social-link__icon {
   fill: currentColor;
-}
-
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--accent-text-color);
-  color: var(--white-text-color);
 }/*# sourceMappingURL=main.css.map */

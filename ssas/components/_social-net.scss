@@ -20,15 +20,16 @@
 
     transition: background-color var(--hover-duration) var(--transition-function),
                 color var(--hover-duration) var(--transition-function);
+
+    &:hover,
+    &:focus {
+                
+        background-color: var(--accent-text-color);
+        color: var(--white-text-color);
+                
+            }
 }
 
-&:hover,
-&:focus {
-
-    background-color: var(--accent-text-color);
-    color: var(--white-text-color);
-
-}
 
 .social-link__icon {
     
