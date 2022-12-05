@@ -1,16 +1,20 @@
 //social network
 .social-list {
+
     display:flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
+
 }
 .social-link {
+
     display: flex;
     justify-content: flex;
     align-items: center;
     width: 44px;
     height: 44px;
+
     color: var(--icon-main-color);
     border-radius: 50%;
 
@@ -18,12 +22,15 @@
                 color var(--hover-duration) var(--transition-function);
 }
 
-.social-link__icon {
-    fill:currentColor;
-}
+&:hover,
+&:focus {
 
-.social-link:hover,
-.social-link:focus {
     background-color: var(--accent-text-color);
     color: var(--white-text-color);
+
+}
+
+.social-link__icon {
+    
+    fill:currentColor;
 }
