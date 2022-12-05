@@ -55,20 +55,18 @@
   margin-bottom: 10px;
   font-size: 14px;
 }
-
 .list .priority__title {
   font-weight: 700;
   line-height: 1.1;
 }
 
+.priority__descr {
+  width: 270px;
+}
 .list .priority__descr {
   font-weight: 400;
   line-height: 1.71;
   color: var(--secondary-text-color);
-}
-
-.priority__descr {
-  width: 270px;
 }
 
 .job {
